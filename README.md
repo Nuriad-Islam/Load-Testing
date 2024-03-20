@@ -1,2 +1,3 @@
 # Load-Testing
-After calling all the API, we found system abnormal behaviour when the number of thread was 4680. We found no error when the number of thread was 4670. Though we found no error at 4670, it behaved little abnormal after the number of thread 4650. 
+After calling all the API(Auth, Creat booking, Get booking, Update booking Partial update booking, Delete), we found system abnormal behaviour when the number of thread was 4680. We found no error when the number of thread was 4670. Though we found no error at 4670, it behaved little abnormal after the number of thread 4650. The system slows down the device after 4650.
+After calling only three API(Auth, Creat booking, Get booking), we found system abnormal behaviour when the number of thread was 7070. We found no error when the number of thread was 7060. Though we found no error at 7060, it behaved little abnormal after the number of thread 7000. The system slows down the device after 7000.
